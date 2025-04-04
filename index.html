@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário!!!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Tela Inicial -->
+    <div id="tela-inicial" class="tela-inicial">
+        <div class="fundo-ceu"></div>
+        <p class="frase-inicial">
+            Assim estava o céu no dia em que meus olhos encontraram os seus e meu coração soube que era com você que eu queria dividir a vida.
+        </p>
+        <button class="btn-ver-mais" onclick="mostrarTelaPrincipal()">Clique para ver mais</button>
+    </div>
+
+    <!-- Tela Principal -->
+    <div id="tela-principal" class="container escondido">
+        <h1 class="titulo">Feliz Aniversário!!!</h1>
+        <div class="contador" id="contador"></div>
+        <div class="frases">
+            <p class="frase-romantica">Eu devo dizer, que você enfeitiçou meu corpo e alma e eu a amo, ardentemente.</p>
+            <p class="frase-adicional">Cada segundo ao seu lado é uma nova aventura.</p>
+        </div>
+        <div class="imagem-container">
+            <img id="imagem" src="imagem1.jpg" alt="Nosso momento especial">
+        </div>
+        <audio autoplay loop>
+            <source src="musica.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
